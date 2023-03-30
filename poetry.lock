@@ -1122,41 +1122,6 @@ files = [
 ]
 
 [[package]]
-name = "optuna"
-version = "2.3.0"
-description = "A hyperparameter optimization framework"
-category = "main"
-optional = true
-python-versions = ">=3.6"
-files = [
-    {file = "optuna-2.3.0.tar.gz", hash = "sha256:876dad2e4d9f3b368f573c0c49724ce5f3b9abfcb14dde6a5ad1b427e73e6a2e"},
-]
-
-[package.dependencies]
-alembic = "*"
-cliff = "*"
-cmaes = ">=0.6.0"
-colorlog = "*"
-joblib = "*"
-numpy = "*"
-packaging = ">=20.0"
-scipy = "!=1.4.0"
-sqlalchemy = ">=1.1.0"
-tqdm = "*"
-
-[package.extras]
-checking = ["black", "blackdoc", "hacking", "isort", "mypy (==0.782)"]
-codecov = ["codecov", "pytest-cov"]
-doctest = ["cma", "matplotlib (>=3.0.0)", "mlflow", "pandas", "plotly (>=4.0.0)", "scikit-learn (>=0.19.0,<0.23.0)", "scikit-optimize"]
-document = ["matplotlib", "pillow", "scikit-learn", "sphinx (==3.0.4)", "sphinx-gallery", "sphinx_rtd_theme (<0.5.0)"]
-example = ["allennlp (==1.0.0)", "catalyst", "catboost", "chainer", "dask-ml", "dask[dataframe]", "fastai (<2)", "keras", "lightgbm", "mlflow", "mpi4py", "mxnet", "nbval", "pytorch-ignite", "pytorch-lightning (>=0.8.1)", "scikit-image", "scikit-learn (>=0.19.0,<0.23.0)", "skorch", "stable-baselines3 (>=0.7.0)", "tensorflow (>=2.0.0)", "tensorflow-datasets", "thop", "torch (==1.6.0+cpu)", "torchvision (==0.7.0+cpu)", "xgboost"]
-experimental = ["redis"]
-integration = ["allennlp (==1.0.0)", "catalyst", "chainer (>=5.0.0)", "cma", "fastai (<2)", "keras", "lightgbm", "mlflow", "mpi4py", "mxnet", "pandas", "pytorch-ignite", "pytorch-lightning (>=0.8.1)", "scikit-learn (>=0.19.0,<0.23.0)", "scikit-optimize", "skorch", "tensorflow", "tensorflow-datasets", "torch (==1.6.0+cpu)", "torchvision (==0.7.0+cpu)", "xgboost"]
-optional = ["bokeh (<2.0.0)", "matplotlib (>=3.0.0)", "pandas", "plotly (>=4.0.0)", "redis", "scikit-learn (>=0.19.0,<0.23.0)"]
-testing = ["allennlp (==1.0.0)", "bokeh (<2.0.0)", "catalyst", "chainer (>=5.0.0)", "cma", "fakeredis", "fastai (<2)", "keras", "lightgbm", "matplotlib (>=3.0.0)", "mlflow", "mpi4py", "mxnet", "pandas", "plotly (>=4.0.0)", "pytest", "pytorch-ignite", "pytorch-lightning (>=0.8.1)", "scikit-learn (>=0.19.0,<0.23.0)", "scikit-optimize", "skorch", "tensorflow", "tensorflow-datasets", "torch (==1.6.0+cpu)", "torchvision (==0.7.0+cpu)", "xgboost"]
-tests = ["fakeredis", "pytest"]
-
-[[package]]
 name = "packaging"
 version = "23.0"
 description = "Core utilities for Python packages"
